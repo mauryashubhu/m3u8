@@ -1,0 +1,88 @@
+1. What's your favourite state management library for react and why?
+
+ans:- I like to use react hooks for state management because it make easy to understand codes and also  helps me to arrangements of data format.
+some hooks i like to use are as follows;
+1. useState() => work as state to store values of any data type.
+2. useEffect() =>  it is use to run first time before rendering any other part of application like componentdidmount
+3. useContext() =>  use of this hooks is special beacuase we can transfer the data at any level without using the navigation part.
+ 
+
+2. Write some react native best practices. 
+ans:- 1 :   USe fucntional component for stateless peresentational component like e.g.
+
+import React from 'react';
+import { Text, View } from 'react-native';
+const Button = ({ btnName }) => {
+  const {
+    containerStyle,
+    textStyle
+  } = styles;
+
+  return (
+   <View style={containerStyle}>
+      <Text style={textStyle}>{btnName}</Text>
+    </View>
+  );
+};
+const styles = StyleSheet.create({
+  containerStyle: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin
+  },
+  textStyle: {
+    textAlign: 'center',
+    fontSize: 25,
+    fontFamily: fonts.bold,
+    color: colors.grayLight,
+    margin
+  }
+});
+export default Button;
+
+                                      Use class component for stateful container component like e.g.
+                                      
+ class Counter extends Component {
+   
+  state = {
+    count: 0
+  };
+
+  componentWillUpdate(){
+   // Call API and Manipulate the response data if needed
+  }
+
+   const increaseOne = ()=>{
+     this.setState({count: this.state.count + 1});
+   };
+  
+  render() { 
+   return(
+    <View style={{}}>
+      <Text style={{}}>Count: {this.state.count}</Text>
+      <Button btnName=”Add” onClick={this.increaseOne}></Button>
+    </View>
+  );
+};
+
+
+
+
+
+3. Which coding style you prefer wet or dry and why?
+
+  I prefer DRY(Do Not Repeatyourself) strategy because as following: 
+  
+  * it make code easier to understand ,
+  * reduce redundancy in application,
+  * once write use anywhere in application because of it component format,
+  * make program less complex,
+  * it saves developer's time.
+  
+  
+  
+
+4. What do you prefer expo or vanilla react native and why?
+
+   Most of the time I practiced on vanilla raect native because it's make my practices and knowlegde  fluent. using vanilla react native provides me more control over application i can build native app, a specified one. i can build my own module in vanilla react native but in expo there are limits of modules.  
