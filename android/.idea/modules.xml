@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/VideoStream.iml" filepath="$PROJECT_DIR$/.idea/modules/VideoStream.iml" group="VideoStream" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="VideoStream/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1426504890/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/1426504890/react-native-community_masked-view.iml" group="VideoStream/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1182866523/react-native-community_picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1182866523/react-native-community_picker.iml" group="VideoStream/react-native-community_picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1176599203/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1176599203/react-native-gesture-handler.iml" group="VideoStream/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/882209439/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/882209439/react-native-reanimated.iml" group="VideoStream/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-484066682/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-484066682/react-native-safe-area-context.iml" group="VideoStream/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1569286686/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1569286686/react-native-screens.iml" group="VideoStream/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/92002201/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/92002201/react-native-vector-icons.iml" group="VideoStream/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/572759762/react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/572759762/react-native-video.iml" group="VideoStream/react-native-video" />
+    </modules>
+  </component>
+</project>
